@@ -68,6 +68,12 @@ body {
     padding-right: 2%;
 }
 
+.education  p{
+  background-color: #ececec;
+  padding: 12px;
+  border-radius: 3px;
+}
+
 h2 {
   color: #f4461b;
 }
@@ -79,6 +85,8 @@ p {
 .skills {
   background-color: #f4461b;
   color: white;
+  padding: 3px;
+  margin-bottom: 3px;
 }
 
 .idioms {
@@ -86,3 +94,35 @@ p {
   position: relative;
   left: -9%;
 }
+
+.idioms .orange {
+  color: #f4461b;
+}
+
+.idioms .gray {
+  color: #808080;
+}
+
+.idioms .fa {
+  float: right;
+}
+
+ .python {
+   width: 100%;
+ }
+
+ .html {
+   width: 80%;
+ }
+
+ .css {
+   width: 60%;
+ }
+
+ .js {
+   width: 40%;
+ }
+
+ .php {
+   width: 25%;
+ }
