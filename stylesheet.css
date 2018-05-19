@@ -3,6 +3,7 @@
 .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
   float: left;
   box-sizing: border-box;
+  padding-left: 2px;
 }
 
 .col-md-1 {width: 8.33%;}
@@ -23,19 +24,57 @@
   display: table;
 }
 
-@media (max-width: 800px) {
-  .aside {
+@media (max-width: 1200px) {
+  .main, .aside, .education, .title-year {
     width: 100%;
   }
-  
+}
+
+@media (max-width: 800px) {
   .google {
     width: 100%;
   }
 }
-.aside {
+
+@font-face {
+    font-family: Roboto;
+    src: url('https://fonts.googleapis.com/css?family=Roboto');
+}
+
+body {
+  background-color: #ececec;
+}
+
+.container {
+  margin: 9%;
+  background-color: white;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.imagen {
+  border-radius: 50%;
+  max-width: 20%;
+  clear: both;
+  border: solid #ececec 10px;
+  position: relative;
+  left: 35%;
+  top: -90px;
+}
+
+h1, h2, h3, li, p {
+  font-family: Roboto;
+}
+
+.aside, .main {
     padding-left: 2%;
+    padding-right: 2%;
 }
 
 h2 {
-  color: orange;
+  color: #f4461b;
+}
+
+p {
+  text-align: justify;
 }
