@@ -92,18 +92,18 @@ p {
 .idioms {
   list-style-type: none;
   position: relative;
-  
+
 }
 
-.idioms .orange {
+.orange {
   color: #f4461b;
 }
 
-.idioms .gray {
+ .gray {
   color: #808080;
 }
 
-.idioms .fa {
+.fa {
   float: right;
 }
 
