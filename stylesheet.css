@@ -30,7 +30,7 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 610px) {
   .google {
     width: 100%;
   }
@@ -83,4 +83,6 @@ p {
 
 .idioms {
   list-style-type: none;
+  position: relative;
+  left: -9%;
 }
