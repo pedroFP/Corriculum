@@ -43,6 +43,7 @@
 
 body {
   background-color: #ececec;
+  font-family: Roboto;
 }
 
 .container {
@@ -62,10 +63,6 @@ body {
   top: -90px;
 }
 
-h1, h2, h3, li, p {
-  font-family: Roboto;
-}
-
 .aside, .main {
     padding-left: 2%;
     padding-right: 2%;
@@ -77,4 +74,15 @@ h2 {
 
 p {
   text-align: justify;
+}
+
+.skills {
+  background-color: #f4461b;
+  color: white;
+}
+
+.idioms {
+  list-style-type: none;
+  position: relative;
+  left: -9%;
 }
