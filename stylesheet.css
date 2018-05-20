@@ -59,13 +59,17 @@ body {
   clear: both;
   border: solid #ececec 10px;
   position: relative;
-  left: 35%;
+  left: 41.66%;
   top: -90px;
 }
 
 .aside, .main {
     padding-left: 2%;
     padding-right: 2%;
+}
+
+.aside {
+  padding-bottom: 5%;
 }
 
 .education  p{
