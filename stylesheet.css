@@ -127,12 +127,21 @@ li {
    width: 25%;
  }
 
- button {
+.idioms {
+  padding-bottom: 4px;
+}
+
+ .line {
+   background-color: #ececec;
+   height: 1px;
+
+ }
+
+.hobbies {
    display: inline;
-   padding: 12px;
+   padding: 9px;
    background-color: #a24a5d;
-   margin-right: 10px;
+   margin-right: 1%;
    border: none;
    color: white;
-   cursor: pointer;
  }
