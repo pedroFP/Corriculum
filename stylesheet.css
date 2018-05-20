@@ -82,17 +82,15 @@ p {
   text-align: justify;
 }
 
+li {
+  padding: 2px;
+}
+
 .skills {
   background-color: #f4461b;
   color: white;
   padding: 3px;
   margin-bottom: 3px;
-}
-
-.idioms {
-  list-style-type: none;
-  position: relative;
-
 }
 
 .orange {
@@ -105,6 +103,8 @@ p {
 
 .fa {
   float: right;
+  box-sizing: border-box;
+  margin-left: 12px;
 }
 
  .python {
