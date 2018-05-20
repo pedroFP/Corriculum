@@ -126,3 +126,13 @@ li {
  .php {
    width: 25%;
  }
+
+ button {
+   display: inline;
+   padding: 12px;
+   background-color: #a24a5d;
+   margin-right: 10px;
+   border: none;
+   color: white;
+   cursor: pointer;
+ }
